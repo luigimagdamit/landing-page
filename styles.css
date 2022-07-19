@@ -34,7 +34,7 @@
     background-color: #1F2937;
     color: #F9FAF8;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 
 }
 #left-banner{
@@ -84,6 +84,32 @@
     background-color: grey;
     width: 100px;
     height: 100px;
+}
+#intro {
+    background-color: #151516;
+    margin-top: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1b2b4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#intro p {
+    width: 600px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+#intro a {
+    border: white 2px solid;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 5px;
+    color: inherit;
 }
 #outergallery h1{
     font-family: Arial, Helvetica, sans-serif;
