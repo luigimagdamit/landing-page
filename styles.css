@@ -97,6 +97,9 @@ body {
     margin-right: 100px;
     text-decoration: none;
 }
+.box p{
+    height: 50px;
+}
 .pic{
     background-color: grey;
     width: 200px;
