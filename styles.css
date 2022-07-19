@@ -1,6 +1,9 @@
 * {
     /*border: 2px solid red;*/
 }
+body {
+    margin: 0;
+}
 #header {
     margin-top: -10px;
     display: flex;
@@ -20,6 +23,10 @@
 }
 #links a {
     color: inherit;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
 }
 #linkedin {
     height: 30px;
@@ -102,7 +109,7 @@
 #intro p {
     width: 600px;
     padding-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 #intro a {
     border: white 2px solid;
@@ -114,7 +121,10 @@
 #outergallery h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #1f2937;
+    color: #696969;
+    font-size: 24px;
+    margin-top: 40px;
+    letter-spacing: 1px;
 }
 
 #outergallery p {
