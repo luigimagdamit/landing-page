@@ -85,7 +85,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .box {
     display: flex;
@@ -93,13 +93,15 @@ body {
     justify-content: center;
     align-items: center;
     width: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
 }
 .pic{
     background-color: grey;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+   
 }
 #intro {
     background-color: #151516;
@@ -119,20 +121,24 @@ body {
     width: 600px;
     padding-bottom: 20px;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 #intro a {
-    border: white 2px solid;
+    border: rgb(216, 216, 216) 2px solid;
+    background-color: #212122;
     font-size: 12px;
     border-radius: 25px;
     padding: 5px;
     color: inherit;
+    text-decoration: none;
+    padding: 10px;
 }
 #outergallery h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #696969;
     font-size: 24px;
-    margin-top: 40px;
+    margin-top: 50px;
     letter-spacing: 1px;
 }
 
@@ -140,6 +146,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #1F2937;
+    letter-spacing: 1px;
 
 }
 #quote {
