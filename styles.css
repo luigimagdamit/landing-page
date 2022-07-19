@@ -4,6 +4,10 @@
 body {
     margin: 0;
 }
+#outer{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background.jpg");
+    background-size: cover;
+}
 #header {
     margin-top: -10px;
     display: flex;
@@ -13,9 +17,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     padding-bottom: 50px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background.jpg");
+    
 }
 #links {
-    padding-top: 20px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
     width: 400px;
@@ -41,7 +47,9 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding-top: 50px;
-    padding-bottom: 170px;
+    padding-bottom: 150px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background.jpg");
+    
 
 }
 #left-banner{
@@ -69,7 +77,8 @@ body {
     align-items: center;
     object-fit: cover;
     background-color: grey;
-    height: 250px;
+    height: 300px;
+    border-radius: 50%;
 }
 #gallery {
     display: flex;
